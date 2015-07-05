@@ -1,0 +1,5 @@
+scrapy shell 'url'
+
+response.xpath("//table[@class='statistics scrollable']//tr")[1].select("td[3]/text()").extract()
+http://doc.scrapy.org/en/latest/topics/shell.html
+
